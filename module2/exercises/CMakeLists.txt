@@ -4,6 +4,9 @@ project(data_sharing-exercises)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# set(CMAKE_CXX_COMPILER "clang++")
+# set(CMAKE_BUILD_TYPE Debug)
+
 # add_definitions(-Wno-unused-variable)
 # add_link_options(-fsanitize=thread)
 add_definitions(-Wall -Werror -pedantic -Wextra)
